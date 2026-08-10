@@ -26,6 +26,8 @@ module sys_top
 	input         FPGA_CLK2_50,
 	input         FPGA_CLK3_50,
 
+	output        clk_50m,
+
 	//////////// HDMI //////////
 	output        HDMI_I2C_SCL,
 	inout         HDMI_I2C_SDA,
@@ -607,6 +609,7 @@ sysmem_lite sysmem
 	.reset_core_req(reset_req),
 	.reset_out(reset),
 	.clock(clk_100m),
+	.clk_50m(clk_50m),
 
 	//DE10-nano has no reset signal on GPIO, so core has to emulate cold reset button.
 	.reset_hps_cold_req(btn_r),
@@ -713,7 +716,7 @@ wire         bob_deint;
 
 	ascal 
 	#(
-		.RAMBASE(32'h20000000),
+		.RAMBASE(32'h1E800000),
 	`ifdef MISTER_SMALL_VBUF
 		.RAMSIZE(32'h00200000),
 	`else

@@ -27,3 +27,20 @@ set_global_assignment -name VERILOG_FILE rtl/7400/x74139.v
 set_global_assignment -name VERILOG_FILE rtl/7400/x74138.v
 set_global_assignment -name VERILOG_FILE rtl/7400/x7474.v
 set_global_assignment -name VERILOG_FILE rtl/sc01.v
+set_global_assignment -name VERILOG_FILE rtl/sc01.v
+set_global_assignment -name VHDL_FILE rtl/votrax_sound.vhd
+set_global_assignment -name VHDL_FILE rtl/sc01a/f1_rom.vhd
+set_global_assignment -name VHDL_FILE rtl/sc01a/f2n_rom.vhd
+set_global_assignment -name VHDL_FILE rtl/sc01a/f2v_rom.vhd
+set_global_assignment -name VHDL_FILE rtl/sc01a/f3_rom.vhd
+set_global_assignment -name VHDL_FILE rtl/sc01a/f4_rom.vhd
+set_global_assignment -name VHDL_FILE rtl/sc01a/fn_rom.vhd
+set_global_assignment -name VHDL_FILE rtl/sc01a/fx_rom.vhd
+set_global_assignment -name VHDL_FILE rtl/sc01a/iir_filter_slow.vhd
+set_global_assignment -name VHDL_FILE rtl/sc01a/sc01a_coeff_scales_pkg.vhd
+set_global_assignment -name VHDL_FILE rtl/sc01a/sc01a_filter.vhd
+set_global_assignment -name VHDL_FILE rtl/sc01a/sc01a_resamp.vhd
+set_global_assignment -name VHDL_FILE rtl/sc01a/sc01a_rom.vhd
+set_global_assignment -name VHDL_FILE rtl/sc01a/sc01a.vhd
+set_global_assignment -name VHDL_FILE rtl/sc01a/sc01_rom.vhd
+
