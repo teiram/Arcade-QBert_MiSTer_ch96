@@ -1,6 +1,5 @@
 set_global_assignment -name VERILOG_FILE rtl/8088/eu_rom.v
 set_global_assignment -name CDF_FILE jtag.cdf
-set_global_assignment -name QIP_FILE sys/sys.qip
 set_global_assignment -name VERILOG_FILE rtl/dpram.v
 set_global_assignment -name VERILOG_FILE rtl/ram.v
 set_global_assignment -name VERILOG_FILE rtl/mylstar_board.v
